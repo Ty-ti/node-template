@@ -1,0 +1,29 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Template repo for using by the suite.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ty-ti/node-template.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "typescript",
+    "api"
+  ],
+  "author": "Ricardo Malnati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ty-ti/node-template/issues"
+  },
+  "homepage": "https://github.com/Ty-ti/node-template#readme"
+}
