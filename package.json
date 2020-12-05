@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Ty-ti/node-template/issues"
   },
-  "homepage": "https://github.com/Ty-ti/node-template#readme"
+  "homepage": "https://github.com/Ty-ti/node-template#readme",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
 }
