@@ -27,6 +27,10 @@
   },
   "homepage": "https://github.com/Ty-ti/node-template#readme",
   "dependencies": {
+    "-": "0.0.1",
     "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
   }
 }
