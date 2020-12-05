@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/Ty-ti/node-template#readme",
   "dependencies": {
-    "-": "0.0.1",
     "axios": "^0.21.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
@@ -45,12 +44,13 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/express": "^4.17.9",
+    "@types/jest": "^26.0.16",
     "@types/module-alias": "^2.0.0",
     "@types/node": "^14.14.10",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",
-    "typescript": "^4.1.2",
-    "supertest": "^6.0.1"
+    "supertest": "^6.0.1",
+    "typescript": "^4.1.2"
   }
 }
