@@ -15,8 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "test:unit": "jest",
-    "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
-    "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'"
+    "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts' './*.json' './*.js'",
+    "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts' './*.json' './*.js'"
   },
   "repository": {
     "type": "git",
@@ -26,13 +26,13 @@
     "node",
     "nodejs",
     "javascript",
-      "typescript",
-      "tdd",
-      "overnightjs",
-      "express",
-      "module-alias",
-      "prettier",
-      "jest",
+    "typescript",
+    "tdd",
+    "overnightjs",
+    "express",
+    "module-alias",
+    "prettier",
+    "jest",
     "api"
   ],
   "author": "Ricardo Malnati",
