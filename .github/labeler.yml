@@ -1,4 +1,4 @@
 - name: Labeler
   uses: actions/labeler@v3
 setup:
-- any: ['\.*']
+- any: ['tsconfig.json', 'package.json', 'jest.config.js', '.prettierrc', '.gitignore', '.eslintrc', 'config/test.json', 'config/default.json', 'test/jest.config.js', 'test/jest-setup.ts', 'test/globals.d.ts', 'src/util/module-alias.ts']
