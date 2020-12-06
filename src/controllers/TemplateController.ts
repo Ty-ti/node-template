@@ -6,9 +6,9 @@ export class TemplateController {
   @Get('')
   public getDefault(req: Request, res: Response): void {
     res.send([
-	      {
-	         msg: 'Hello node-template repo!',
-              },
-           ]);
+      {
+        msg: 'Hello node-template repo!',
+      },
+    ]);
   }
 }
