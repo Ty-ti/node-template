@@ -1,9 +1,0 @@
-name: 'prettierify'
-on: push
-
-jobs:
-  prettier: # Automatically runs prettier on all your changes
-    runs-on: ubuntu-latest
-    steps:
-      - name: Prettier Action
-        uses: creyD/prettier_action@v3.1
