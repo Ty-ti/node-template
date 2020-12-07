@@ -3,6 +3,10 @@ name: Stylefy
 # Run this workflow every time a new commit pushed to your repository
 on: push
 
+env:
+  DEFAULT_BRANCH: main
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
@@ -30,7 +34,3 @@ jobs:
       # Run style:check
       - name: Run style:check
       - run: npm run style:check
-        
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
