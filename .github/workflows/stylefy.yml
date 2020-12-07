@@ -3,10 +3,6 @@ name: Stylefy
 # Run this workflow every time a new commit pushed to your repository
 on: push
 
-env:
-  DEFAULT_BRANCH: main
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
@@ -17,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - env: 
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
       - uses: actions/checkout@v2
