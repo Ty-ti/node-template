@@ -3,6 +3,12 @@ import { Server } from '@overnightjs/core';
 import { Application } from 'express';
 import bodyParser from 'body-parser';
 import { TemplateController } from './controllers/TemplateController';
+ import { Server } from '@overnightjs/core';
+import { Application } from 'express';
+import bodyParser 
+from 'body-parser';
+import { TemplateController } 
+from './controllers/TemplateController';
 
 export class SetupServer extends Server {
   /*
