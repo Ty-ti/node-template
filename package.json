@@ -43,7 +43,7 @@
   "homepage": "https://github.com/Ty-ti/node-template#readme",
   "dependencies": {
     "@overnightjs/core": "^1.7.5",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "config": "^3.3.3",
     "express": "^4.17.1",
