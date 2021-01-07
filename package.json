@@ -7,11 +7,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "tsc",
+      "build": "tsc",
+      "compile": "tsc -w",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
-    "start": "npm run build && node dist/server.js",
-    "start:local": "ts-node-dev 'src/server.ts'",
+    "start": "npm run build && node ./dist/src/server.js",
+      "start:local": "ts-node-dev 'src/server.ts'",
+      "start-dev": "ts-node-dev --inspect --ignore-watch node_modules src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "test:unit": "jest",
